@@ -1,0 +1,44 @@
+.custom-dropdown {
+    position: relative;
+    width: 150px;
+}
+
+.dropdown-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 12px;
+}
+
+.arrow.up {
+    transform: rotate(180deg);
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: max-content;
+    min-width: 100%;
+    max-width: 260px;
+    background-color: #fff;
+}
+
+.custom-dropdown.open .dropdown-options {
+    display: block;
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}

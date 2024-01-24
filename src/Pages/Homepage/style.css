@@ -1,0 +1,23 @@
+.input-wrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.input-wrapper input[name="searchValue"] {
+    outline: none;
+    border: none !important;
+}
+
+.input-wrapper .search-wrapper {
+    max-width: 600px;
+    position: relative;
+
+}
+
+.filtered-results {
+    position: absolute;
+    top: 120%;
+    left: 0px;
+    width: 100%;
+}
