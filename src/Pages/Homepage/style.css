@@ -3,6 +3,7 @@
     gap: 10px;
     justify-content: center;
     margin-top: 10px;
+    padding-inline: 10px;
 }
 
 .input-wrapper input[name="searchValue"] {
